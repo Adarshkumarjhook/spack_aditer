@@ -4,9 +4,15 @@
     background: #8C8C8C;
 }
 
+
+
+
+
+
+
 .page_2 .section_1 {
     width: 100%;
-  
+
     background: #F4F4F6;
     background: #FFFFFF;
     overflow: hidden;
@@ -139,7 +145,7 @@
     width: 100%;
     background: #F3F3F3;
 
-    min-height: 100vw;
+    min-height: 200vw;
     height: 100vw;
     display: flex;
     flex-direction: column;
@@ -161,7 +167,8 @@
 .section_3_x {
     width: 100%;
     border-radius: 7px;
-    min-height: 30vw;
+    min-height: 40vw;
+    height: 60vw;
     background: #FFFFFF;
     display: flex;
     justify-content: flex-start;
@@ -203,15 +210,66 @@
 
 
 
+/* section_3_ysection_3_ysection_3_y */
+
+
+.section_3_y {
+    width: 100%;
+    min-height: 40vh;
+    display: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section_3_y_img {
+    width: 80%;
+}
+
+.section_3_y_txt {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.section_3_y_txt li {
+    text-align: center;
+    width: 70%;
+
+}
+
+.section_3_y_txt .btn {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 1vw 2vw;
+
+    border-radius: 50px;
+}
+
+
+.row_r {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
 
 @media (max-width: 600px) {
 
 
 
-.page_2 .section_1 {
-    width: 100%;
-    min-height: 100vh;
-}
+    .page_2 .section_1 {
+        width: 100%;
+        min-height: 100vh;
+    }
 
     .sectio_1_y {
         width: 100%;
@@ -347,6 +405,7 @@
         width: 100%;
         overflow: scroll;
         gap: 2vw;
+        min-height: 60vh;
     }
 
     .section_3_x_ {
@@ -388,6 +447,10 @@
 
 
 
+    .row_r {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
 
 }
